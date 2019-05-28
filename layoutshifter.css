@@ -1,0 +1,148 @@
+.boxing {
+    box-sizing: border-box;
+    -webkit-box-shadow: -2px 3px 37px -4px rgba(0, 0, 0, 0.78);
+    -moz-box-shadow: -2px 3px 37px -4px rgba(0, 0, 0, 0.78);
+    box-shadow: -2px 3px 37px -4px rgba(0, 0, 0, 0.78);
+    
+}
+
+
+body {
+    background-color: rgb(230, 185, 102);
+}
+
+.whatsapp {
+    width: 50px;
+    height: 50px;
+    margin-top: 250px;
+    margin-left: 50px;
+    border-radius: 50%;
+}
+
+img.gmail {
+    width: 50px;
+    height: 50px;
+    margin-left: 50px;
+    margin-top: 150px;
+    border-radius: 50%;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 900px;
+    margin: 0 auto;
+    -webkit-box-shadow: -2px 3px 37px -4px rgba(0, 0, 0, 0.78);
+    -moz-box-shadow: -2px 3px 37px -4px rgba(0, 0, 0, 0.78);
+    box-shadow: -2px 3px 37px -4px rgba(0, 0, 0, 0.78);
+}
+
+img.pic {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    -webkit-box-shadow: -2px 3px 37px -4px rgba(0, 0, 0, 0.78);
+    -moz-box-shadow: -2px 3px 37px -4px rgba(0, 0, 0, 0.78);
+    box-shadow: -2px 3px 37px -4px rgba(0, 0, 0, 0.78);
+    margin: 0
+}
+
+.intro {
+    height: 100px;
+    width: 100%;
+    background-color: rgb(138, 180, 174);
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.objective {
+    height: 100px;
+    padding: 10px;
+    background-color: rgb(197, 206, 204);
+    ;
+    border: 1px solid black;
+}
+
+.box {
+    height: 1000px;
+    width: 80%;
+    border: 1px solid black;
+}
+
+.box1 {
+    background-color: rgb(197, 206, 204);
+    height: 1000px;
+    width: 20%;
+    padding: 15px;
+    border: 1px solid black;
+    -webkit-box-shadow: -2px 3px 37px -4px rgba(0, 0, 0, 0.78);
+    -moz-box-shadow: -2px 3px 37px -4px rgba(0, 0, 0, 0.78);
+    box-shadow: -2px 3px 37px -4px rgba(0, 0, 0, 0.78);
+}
+
+.box2 {
+    background-color: rgb(197, 206, 204);
+    height: 400px;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.box3 {
+    background-color: rgb(197, 206, 204);
+    ;
+    height: 400px;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+@media screen and (max-width:900px) {
+    .box1 {
+        width: 100%;
+        box-sizing: border-box;
+        height: 400px;
+        padding: 5px;
+    }
+    .box, .box2, .box3, .intro, .objective {
+        width: 100%;
+    }
+    img.pic {
+        float: right;
+    }
+    img.whatsapp {
+        margin: 40px auto;
+    }
+    img.gmail {
+        margin: 40px auto;
+    }
+}
+
+@media screen and (max-width:469px) {
+    h1 {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width:403px) {
+    h3 {
+        font-size: 13px;
+    }
+    li {
+        font-size: 12px;
+    }
+    p {
+        font-size: 12px;
+    }
+    img.pic {
+        width: 75px;
+        height: 75px;
+        margin: auto 149px;
+    }
+    img.gmail {
+        margin: 30px auto;
+    }
+    img.whatsapp {
+        margin: 50px auto;
+    }
+}
